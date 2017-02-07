@@ -1,0 +1,114 @@
+.mask-hover {
+	width: 100%;
+	padding: 10px 0;
+}
+
+#portfolio {
+    padding-bottom: 10px;
+}
+
+.portfolio-filter {
+	padding-left: 0;
+
+}
+
+.portfolio-filter li {
+	list-style: none;
+	display: inline-block;
+	padding: 5px 18px;
+}
+
+.portfolio-filter li > a {
+	text-decoration: none;
+	font-size: 14px;
+	font-family: 'Arial', sans-serif;
+	color: black;
+    cursor: default;
+}
+
+#portfolio li:hover {
+	background-color: #81e4ed;
+}
+
+#portfolio hr {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+#portfolio .title-icon {
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+#portfolio .portfolio-grid {
+	margin-top: 20px;
+}
+
+.portfolio-item {
+	padding: 0px 5px;
+}
+
+
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ul.pagination li a.active {
+    background-color: #81e4ed;
+    color: black;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+
+.pagination .glyphicon {
+	
+}
+
+/*REPONSIVE*/
+
+
+@media (min-width: 1200px) {	
+	
+} 
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	ul.pagination li a {
+		font-size: 12px;
+	    padding: 6px 14px;
+	    text-decoration: none;
+	}
+	ul.pagination li a span {
+		    font-size: 10px;
+    		padding: 2px 1px;
+	}
+	#next_demo_pag1 {
+	    margin-right: 15px !important;
+	}
+
+	#prev_demo_pag1 {
+	    margin-left: 15px !important;
+	}
+}
+
+/*END REPONSIVE*/

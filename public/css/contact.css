@@ -1,0 +1,102 @@
+body {
+  color: #363636;
+  font-family: 'Arial', sans-serif;
+}
+
+#contact h3 {
+	margin-top: 40px;
+}
+
+#contact hr {
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+
+#contact p {
+	font-family: 'Arial', sans-serif;
+	font-size: 14px;
+}
+
+#contact p span {
+	color: #2aacc8;
+	font-weight: bold;
+}
+
+#contact .form-group {
+    margin-right: 170px;
+}
+
+#contact .form-group label {
+	font-weight: normal;
+}
+
+#contact .form-group input {
+	border-radius: 0;
+}
+
+#contact .form-group textarea {
+	border-radius: 0;
+}
+
+#contact button {
+	padding: 20px 40px;
+}
+
+
+#contact button > img {
+	margin-right: 15px;
+}
+
+/*MAP*/
+.map-box {
+	background: #e8fcfe;
+	border: 1px solid #81e4ed	;
+	padding: 20px 20px;
+}
+
+#map {
+	width:100%;
+	height: 200px;
+	border: 5px solid #fff;
+}
+
+.map-box p {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.contact-us .title-icon {
+	margin-left: 0;
+}
+
+
+.gmnoprint a, .gmnoprint span, .gm-style-cc {
+    display:none;
+}
+.gmnoprint div {
+    background:none !important;
+}
+
+a[href^="http://maps.google.com/maps"]{display:none !important}
+a[href^="https://maps.google.com/maps"]{display:none !important}
+
+/*END MAP*/
+
+
+@media (min-width: 1200px) {	
+	
+} 
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	
+}

@@ -1,0 +1,190 @@
+body {
+  color: #363636;
+  font-family: 'Arial', sans-serif;
+}
+hr {
+	margin-bottom: 10px;
+}
+
+
+
+/* SLIDESHOW */
+
+#carousel-show {
+	background: #81e4ed;
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+      padding: 20px 0px 40px 0px;
+  }
+
+.carousel-indicators {
+	bottom: 0px;
+}
+
+.carousel-indicators li, .carousel-indicators .active {
+	height: 12px;
+	width: 12px;
+	margin: 0px 10px;
+}
+
+.carousel-caption-text {
+    left: 0;
+    text-align: left;
+    position: absolute;
+    top: 10%;
+    bottom: 20%;
+    padding-left: 5%;
+    width: 40%;
+
+}
+.carousel-caption h1 {
+	font-family: 'Lato-Bold'; 
+	font-size: 50px;
+}
+
+.carousel-caption-img {
+	bottom: 10%;
+}
+
+/* END SLIDESHOW */
+
+/*middle-section*/
+#middle-section{
+	background: #e8ebf1;
+	padding: 35px 0;
+}
+
+.glyphicon-chevron-right {
+	color: #000;
+	size: 80%;
+}
+
+.arrow-control {
+	margin-top: 20px;
+}
+
+#middle-section a {
+	color: #2aacc8;
+	font-size: 13px;
+	text-decoration: none;
+	font-family: 'Arial', sans-serif;
+}
+
+#middle-section a > span {
+	font-size: 10px;
+}
+
+
+#middle-section p {
+	margin-top: 10px;
+}
+
+#middle-section img {
+	width: 42px;
+}
+
+#middle-section p {
+	font-family: 'Arial', sans-serif;
+	font-size: 13px;
+}
+
+/*middle-section*/
+
+/*LATEST WORK*/
+.img-responsive{
+	width:100%;
+	height:auto;
+}
+
+.link-preview {
+	background: #2aacc8;
+	position: absolute;
+	height: 0%;
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+	padding: 10%;
+	opacity: 0;
+}
+
+.link-preview a {
+	margin: 0px 5px;
+}
+
+.link-mask {
+	position: relative;
+}
+
+.mask-hover {
+	padding: 20px;
+}
+
+.mask-hover:hover .link-preview{
+	opacity: 1;
+	transition: all 0.5s;
+	height: 50%;
+}
+/*END LATEST WORK*/
+
+/* TESTIMONIALS CLIENTS*/
+
+#testimonials-clients {
+	padding-bottom: 30px;
+}
+
+#testimonials-clients p > span {
+	font-style: italic;
+	font-weight: bold;
+	color: black;
+}
+
+#logo-list {
+	background: #fff;
+}
+
+.logo-box {
+	width: 160px;
+	height: 101px;
+}
+
+#logo-list {
+	padding: auto;
+}
+
+/* ENDTESTIMONIALS CLIENTS*/
+
+/* DOWNLOAD PSD*/
+.box-download {
+	background: #e8fcfe;
+	border: 1px solid #81e4ed;
+}
+
+/*.download-psd button{
+	background: #2aacc8;
+	text-align: center;
+	padding-top: 0;
+	padding-bottom: 0;
+	border: 1px solid #2aacc8;
+}*/
+.download-psd button > p {
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+	color: black;
+	margin: 20px;
+}
+
+.download-psd button > p > img {
+	margin-right: 20px;
+}
+
+.row-download {
+	padding: 30px;
+}
+/* END DOWNLOAD PSD*/
+
+
+
+
